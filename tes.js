@@ -33,7 +33,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           const pertanyaan = Swal.fire({
             title: `${nama} sayang ga sama ${sender}?`,
             showDenyButton: true,
-            showCancelButton: false,
+            showCancelButton: false, 
             confirmButtonText: `Sayang`,
             denyButtonText: `Enggak`,
           }).then((result) => {
@@ -375,3 +375,4 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+ 
